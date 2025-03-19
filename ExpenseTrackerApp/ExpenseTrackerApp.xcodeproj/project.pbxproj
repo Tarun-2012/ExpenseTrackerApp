@@ -13,6 +13,7 @@
 		CE561AD92D8AA60300153E4A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE561AD82D8AA60300153E4A /* Base */; };
 		CE561ADB2D8AA60400153E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE561ADA2D8AA60400153E4A /* Assets.xcassets */; };
 		CE561ADE2D8AA60400153E4A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE561ADD2D8AA60400153E4A /* Base */; };
+		CEB182052D8B9A16002FC731 /* appleLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEB182042D8B9A16002FC731 /* appleLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE561ADA2D8AA60400153E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE561ADD2D8AA60400153E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE561ADF2D8AA60400153E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB182042D8B9A16002FC731 /* appleLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		CE561AD02D8AA60200153E4A /* ExpenseTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEB182062D8B9BF0002FC731 /* Controllers */,
+				CEB182032D8B99B8002FC731 /* images */,
 				CE561AD12D8AA60200153E4A /* AppDelegate.swift */,
 				CE561AD32D8AA60300153E4A /* SceneDelegate.swift */,
-				CE561AD52D8AA60300153E4A /* ViewController.swift */,
 				CE561AD72D8AA60300153E4A /* Main.storyboard */,
 				CE561ADA2D8AA60400153E4A /* Assets.xcassets */,
 				CE561ADC2D8AA60400153E4A /* LaunchScreen.storyboard */,
 				CE561ADF2D8AA60400153E4A /* Info.plist */,
 			);
 			path = ExpenseTrackerApp;
+			sourceTree = "<group>";
+		};
+		CEB182032D8B99B8002FC731 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CEB182042D8B9A16002FC731 /* appleLogo.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CEB182062D8B9BF0002FC731 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE561AD52D8AA60300153E4A /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +147,7 @@
 				CE561ADB2D8AA60400153E4A /* Assets.xcassets in Resources */,
 				CE561ADE2D8AA60400153E4A /* Base in Resources */,
 				CE561AD92D8AA60300153E4A /* Base in Resources */,
+				CEB182052D8B9A16002FC731 /* appleLogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
