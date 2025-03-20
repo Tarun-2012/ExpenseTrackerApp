@@ -13,6 +13,8 @@
 		CE561AD92D8AA60300153E4A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE561AD82D8AA60300153E4A /* Base */; };
 		CE561ADB2D8AA60400153E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE561ADA2D8AA60400153E4A /* Assets.xcassets */; };
 		CE561ADE2D8AA60400153E4A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE561ADD2D8AA60400153E4A /* Base */; };
+		CE561AEA2D8B9E8B00153E4A /* FirebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE561AE92D8B9E8B00153E4A /* FirebaseViewController.swift */; };
+		CE561AEC2D8BA0AF00153E4A /* Firebase.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE561AEB2D8BA0AE00153E4A /* Firebase.jpeg */; };
 		CEB182052D8B9A16002FC731 /* appleLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEB182042D8B9A16002FC731 /* appleLogo.jpg */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		CE561ADA2D8AA60400153E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE561ADD2D8AA60400153E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE561ADF2D8AA60400153E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE561AE92D8B9E8B00153E4A /* FirebaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewController.swift; sourceTree = "<group>"; };
+		CE561AEB2D8BA0AE00153E4A /* Firebase.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Firebase.jpeg; sourceTree = "<group>"; };
 		CEB182042D8B9A16002FC731 /* appleLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,7 @@
 		CEB182032D8B99B8002FC731 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CE561AEB2D8BA0AE00153E4A /* Firebase.jpeg */,
 				CEB182042D8B9A16002FC731 /* appleLogo.jpg */,
 			);
 			path = images;
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				CE561AD52D8AA60300153E4A /* ViewController.swift */,
+				CE561AE92D8B9E8B00153E4A /* FirebaseViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 				CE561ADB2D8AA60400153E4A /* Assets.xcassets in Resources */,
 				CE561ADE2D8AA60400153E4A /* Base in Resources */,
 				CE561AD92D8AA60300153E4A /* Base in Resources */,
+				CE561AEC2D8BA0AF00153E4A /* Firebase.jpeg in Resources */,
 				CEB182052D8B9A16002FC731 /* appleLogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +168,7 @@
 				CE561AD62D8AA60300153E4A /* ViewController.swift in Sources */,
 				CE561AD22D8AA60300153E4A /* AppDelegate.swift in Sources */,
 				CE561AD42D8AA60300153E4A /* SceneDelegate.swift in Sources */,
+				CE561AEA2D8B9E8B00153E4A /* FirebaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
